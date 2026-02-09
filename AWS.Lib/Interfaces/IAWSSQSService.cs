@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
 using Amazon.SQS.Model;
-using AWS.Core.Models;
+using AWS.Lib.Models;
 
-namespace AWS.Core.Interfaces;
+namespace AWS.Lib.Interfaces;
 
 /// <summary>
 /// Service for managing AWS Simple Queue Service (SQS) operations.

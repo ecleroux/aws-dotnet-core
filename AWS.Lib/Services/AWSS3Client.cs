@@ -8,10 +8,10 @@ using Amazon.S3.Model;
 using Amazon.S3.Transfer;
 using Amazon.SecurityToken;
 using Amazon.SecurityToken.Model;
-using AWS.Core.Interfaces;
-using AWS.Core.Models;
+using AWS.Lib.Interfaces;
+using AWS.Lib.Models;
 
-namespace AWS.Core.Services;
+namespace AWS.Lib.Services;
 
 public class AWSS3Client : IAWSS3Client
 {

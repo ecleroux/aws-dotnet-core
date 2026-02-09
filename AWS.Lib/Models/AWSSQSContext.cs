@@ -1,6 +1,6 @@
 using Amazon.SQS;
 
-namespace AWS.Core.Models;
+namespace AWS.Lib.Models;
 
 /// <summary>
 /// Configuration and authentication context for AWS SQS operations

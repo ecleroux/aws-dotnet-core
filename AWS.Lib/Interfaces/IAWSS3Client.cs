@@ -1,8 +1,8 @@
 using Amazon.Runtime;
 using Amazon.S3.Model;
-using AWS.Core.Models;
+using AWS.Lib.Models;
 
-namespace AWS.Core.Interfaces;
+namespace AWS.Lib.Interfaces;
 
 public interface IAWSS3Client
 {

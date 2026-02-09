@@ -1,7 +1,7 @@
 using Amazon.Runtime;
 using Amazon.S3;
 
-namespace AWS.Core.Models;
+namespace AWS.Lib.Models;
 public class AWSStorageContext
 {
     public AmazonS3Client? S3Client { get; set; }

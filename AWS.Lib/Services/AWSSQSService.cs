@@ -5,10 +5,10 @@ using Amazon.SecurityToken;
 using Amazon.SecurityToken.Model;
 using Amazon.SQS;
 using Amazon.SQS.Model;
-using AWS.Core.Models;
-using AWS.Core.Interfaces;
+using AWS.Lib.Models;
+using AWS.Lib.Interfaces;
 
-namespace AWS.Core.Services;
+namespace AWS.Lib.Services;
 
 /// <summary>
 /// AWS SQS service implementation providing client initialization and message operations

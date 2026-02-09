@@ -1,4 +1,4 @@
-# AWS .NET Core
+# AWS .NET Lib
 
 A lightweight, well-documented .NET 8.0 library for AWS S3 and SQS operations with support for multiple authentication methods including assume role, web identity tokens, and basic credentials.
 
@@ -41,7 +41,7 @@ dotnet build
 
 3. Reference in your project:
 ```xml
-<ProjectReference Include="path/to/AWS.Core/AWS.Core.csproj" />
+<ProjectReference Include="path/to/AWS.Lib/AWS.Lib.csproj" />
 ```
 
 ## Usage
